@@ -1,4 +1,4 @@
-# Title: E-Commerce-Database-Website
+E-Commerce-Database-Website
 
 Description:
 - A capstone project as part of my BSC at Eduvos, where I had to develop a functional e-commerce website that pulled product and customer information from an SQL database. The website was to be built from the ground up using no existing frameworks or web-building platforms.
