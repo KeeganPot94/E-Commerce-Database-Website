@@ -1,0 +1,212 @@
+/* REFERENCES:
+    Krossing, D. (2023). 12 | CREATE A WEBSITE MENU BAR IN HTML | 2023 | Learn HTML and CSS Full Course for Beginners.
+    YouTube. Available at: https://www.youtube.com/watch?v=HkNNyDtm7mg&t=1791s
+    [Accessed 10 Jun. 2023].
+
+    Krossing, D. (2023). 20 | HOW TO CREATE A FOOTER & HTML SITEMAP | 2023 | Learn HTML and CSS Full Course for Beginners.
+    YouTube. Available at: https://www.youtube.com/watch?v=FZtDITStQAs&t=1284s
+    [Accessed 10 Jun. 2023].
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+a {
+    cursor: pointer;
+}
+
+h1 {
+    font: 'Montserrat';
+    font-size: 25px ;
+    font-weight: 700;
+    color: #5B5B5B;
+    text-decoration: none;
+}
+
+h2 {
+    font: 'Montserrat';
+    font-size: 20px ;
+    font-weight: 500;
+    color: #5B5B5B;
+    text-decoration: none;
+}
+
+h3 {
+    font: 'Montserrat';
+    font-size: 25px ;
+    font-weight: 500;
+    color: #5B5B5B;
+    text-decoration: none;
+}
+
+/* Page Header */
+.header-main {
+    position: sticky;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+/* Logo */
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.header-main-logo img {
+    height: 60px;
+    align-self: center;
+}
+
+/* Search */
+.header-main-nav {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+}
+
+.searchbar{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #E51F2B;
+    background: none;
+    color: black;
+    outline: #E51F2B;
+}
+
+.search-btn{
+    width: 20%;
+    height: 100%px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:#E51F2B;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Icons */
+.header-main-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.header-main-icons img {
+    width: 30px;
+    padding:5px;
+}
+
+/* Sub-Header: Categories */
+.header-category {
+    position: sticky;
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-top: 1px solid #5B5B5B;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.header-category ul {
+    list-style: none;
+}
+
+.header-category ul li {
+    display: inline;
+    float: left;
+}
+
+.header-category ul li a {
+    padding: 0 25px;
+    line-height: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #5B5B5B;
+    display: block;
+    height: 100%;
+}
+
+.header-category ul li a:hover {
+    color: #E51F2B;
+}
+
+/* Page Footer */
+.footer-main {
+    width: 100%;
+    padding: 60px 0 50px 0;
+    background-color: #5B5B5B;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wrapper-main {
+    width: 100%;;
+    margin: 0 auto;
+}
+
+.footer-sitemap {
+    width: 30%;
+}
+
+.footer-sitemap img {
+    height: 200px;
+    padding:5px;
+}
+
+.footer-sitemap h4 {
+    font-weight: 600;
+    color:#fff;
+}
+.footer-sitemap ul {
+    list-style: none;
+}
+
+.footer-sitemap ul li p {
+    text-decoration: none;
+    line-height: 40px;
+    color:#fff;
+}
+
+.footer-sitemap ul li a {
+    text-decoration: none;
+    line-height: 40px;
+    color:#fff;
+}
